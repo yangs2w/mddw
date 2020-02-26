@@ -113,7 +113,7 @@ public class OTDoctorWorkingAdviceView extends Application {
         AnchorPane doctorAdvice = new AnchorPane();
         AnchorPane.setTopAnchor(doctorAdvice, 38.0);
         AnchorPane.setRightAnchor(doctorAdvice, 0.0);
-        doctorAdvice.setStyle("-fx-background-color: #cccccc");
+        doctorAdvice.setStyle("-fx-background-color: #383838");
 
         root.getChildren().addAll(doctorAdvice);
         // ----------------------------------------------------
