@@ -1,0 +1,27 @@
+.combo-box > .list-cell {
+    -fx-text-fill: #adadad;
+    -fx-font-size: 16;
+}
+.date-picker {
+    -fx-background-color: #383838;
+}
+.date-picker > .arrow-button {
+    -fx-background-color: #989898;
+    -fx-text-fill: #adadad;
+}
+
+.combo-box-popup > .list-view > .virtual-flow > .clipped-container > .sheet > .list-cell {
+    -fx-padding: 4 0 4 5;
+    /* No alternate highlighting */
+    /*-fx-background: -fx-control-inner-background;*/
+    -fx-background-color: #383838;
+    -fx-text-fill: #adadad;
+}
+.combo-box-popup > .list-view > .virtual-flow > .clipped-container > .sheet > .list-cell:filled:hover {
+    -fx-text-fill: #383838;
+    -fx-background-color: #cccccc;
+}
+
+.combo-box-popup > .list-view > .virtual-flow > .scroll-bar{
+    -fx-background-color: #383838;
+}

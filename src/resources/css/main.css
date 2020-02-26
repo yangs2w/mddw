@@ -1,0 +1,23 @@
+.split-pane:horizontal > .split-pane-divider {
+    -fx-background-color: #4b4b4b;
+}
+
+/*.combo-box-base > .arrow-button {*/
+    /*-fx-text-fill: #cccccc;*/
+    /*-fx-arrows-visible: hidden;*/
+    /*!*-fx-background-radius: 0 3 3 0, 0 2 2 0, 0 1 1 0;*!*/
+    /*!*-fx-padding: 0.5em 0.667em 0.5em 0.833333em; !* 6 8 6 10 *!*!*/
+    /*!*-fx-background-color: #4b4b4b;*!*/
+/*}*/
+
+.combo-box > .list-cell {
+    /*-fx-background: transparent;*/
+    /*-fx-background-color: transparent;*/
+    -fx-text-fill: #cccccc;
+    /*-fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; !* 4 8 4 8 *!*/
+}
+
+/*.combo-box-popup > .list-view > .placeholder > .label {*/
+    /*!*-fx-text-fill: derive(-fx-control-inner-background,-30%);*!*/
+    /*-fx-text-fill: #cccccc;*/
+/*}*/
